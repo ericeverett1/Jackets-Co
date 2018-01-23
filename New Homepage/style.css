@@ -32,6 +32,8 @@ a {
     font-size: 15px;
 }
 
+
+
 .miniMenu ul {
 	padding: 0;
 	margin: 0;
@@ -52,6 +54,49 @@ a {
 .miniMenu li a {
     padding: 5px 8px;
 }
+
+@media only screen and (max-width: 375px) {
+    .miniMenu a {
+        font-size: 10px;
+        color: #002F5F;
+    }
+    .miniMenu ul {
+        display: flex;
+        justify-content: center;
+    }
+    .miniMenu .inner li.cartItem {
+        padding: 5px 0px;
+    }
+    .miniMenu .inner li.cartItem > a {
+        font-size: 10px;
+    }
+    .miniMenu .inner li.cartItem > a span {
+        font-size: 12px;
+    }
+    .header-logo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    div.header-logo a img {
+        margin-top: 10px;
+    }
+    span.school {
+        margin-top: -15px;
+        text-align: center;
+    }
+    span.store {
+        font-size: 28px;
+    }
+    #SearchForm {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    
+}
+
 
 .miniMenu > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) {
     border-right: none;
