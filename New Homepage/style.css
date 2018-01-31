@@ -638,3 +638,7 @@ i {
 	color: yellow;
 }
 }
+
+@media (max-width: 321px) and (min-width:  1100px) {
+    
+}
